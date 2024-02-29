@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+nav {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+nav i {
+  color: white;
+  display: flex;
+
+  width: 30px;
+  height: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.navLeft {
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+.navLeft i,
+.navRight i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navRight {
+  padding-right: 20px;
+}
+.navLeft i:hover {
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+}
+.navRight i:hover {
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+}
+.section1 {
+  margin: 60px 0 60px 0;
+  text-align: center;
+}
+
+.section1 h1 {
+  font-size: 35px;
+}
+
+.section1 p {
+  font-size: 17px;
+}
+
+.section1 span {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  color: white;
+}
+.section2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/jane.jpg);
+  display: flex;
+  align-items: center;
+}
+.section2Text {
+  color: white;
+  padding-left: 20px;
+}
+.section2Text h2 {
+  font-size: 35px;
+}
+.section2Text h1 {
+  font-size: 55px;
+}
+.section2Text button {
+  width: 140px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.54);
+  border: none;
+  font-weight: bold;
+}
+.section2Text button:hover {
+  background-color: rgba(255, 255, 255, 0.756);
+  cursor: pointer;
+}
+.container {
+  background-color: #e0dede;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left {
+  width: 70%;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.right {
+  width: 26%;
+}
+.leftBox1 {
+  width: 95%;
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+.leftBox1 p {
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.leftBox1 span {
+  color: #a7a6a6a3;
+}
+.leftBox1 img {
+  padding-top: 10px;
+  width: 95%;
+}
+.leftBoxText {
+  padding: 0 5px 0 5px;
+}
+.leftBoxText p {
+  font-size: 15px;
+  color: #000000c0;
+  font-weight: 100;
+  padding: 10px;
+}
+.leftBox1 p span {
+  color: black;
+  font-weight: 800;
+  font-size: 15px;
+}
+.leftBoxButton {
+  margin: auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftBoxButton button:first-child {
+  width: 100px;
+  height: 30px;
+}
+.leftBoxButton button:last-child {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+
+}
+.leftBoxButton button:hover{
+  background-color: #b7b7b7;
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+.right {
+  margin-top: 24px;
+}
+.rightBox1 {
+  width: 100%;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.rightBox1 img {
+  width: 100%;
+  height: 220px;
+}
+.rightBox1Text {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.rightBox1Text h1 {
+  padding-bottom: 10px;
+}
+.rightBox2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.rightBox2Head {
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding-left: 15px;
+}
+.rightBox2Head h1 {
+  padding-top: 7px;
+}
+.rightBox2Main {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(87, 87, 87, 0.61);
+}
+.rightBox2Main img {
+  width: 15%;
+  height: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.righBox2In {
+  color: #4f4e4e;
+}
+
+.rightBox2Main:hover {
+  background-color: #b7b7b7;
+}
+
+.rightBox3 {
+  background-color: white;
+  height: 300px;
+}
+
+.rightBox3In {
+  margin: 25px;
+  width: 85%;
+  height: 200px;
+  background-color: rgba(201, 198, 198, 0.395);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightBox4Main {
+  height: 100px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.rightBox4Main ul {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  
+}
+.rightBox4Main li{
+  background-color: #b7b7b76f;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.rightBox4Main li:first-child{
+  background-color: black;
+  color: white;
+}
+
+.rightBox5Main{
+  background-color: white;
+  height: 400px;
+  
+}
+.rightBox5Main img{
+width: 42%;
+height: 170px;  
+margin-left: 20px;
+margin-top: 20px;
+
+}
+.rightBox6Main {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.rightBox6Main i{
+  font-size: 27px;
+  padding-left: 10px;
+}
+.rightBox7Main {
+  background-color: white;
+  padding: 15px;
+}
+.rightBox7Main input{
+ width: 350px;
+ height: 30px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.rightBox7Main button{
+  width: 350px;
+  height: 40px;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+.rightBox7Main button:hover{
+  background-color: #b7b7b7;
+  color: black;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #616161;
+  height: 180px;
+}
+footer button{
+  width: 140px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin: 30px 0 0 30px;
+  font-size: 20px;
+}
+footer button:hover{
+  color: black;
+  cursor: pointer;
+  background-color: #b7b7b7;
+  border: none;
+}
